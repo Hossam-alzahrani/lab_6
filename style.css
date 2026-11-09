@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.vote-btn {
+  font-size: 2em;
+  padding: 4px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.vote-btn:active {
+  transform: scale(0.95);
+}
+
+textarea {
+  width: 65%;
+  height: 100px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.dark-btn {
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#message {
+  color: green;
+}
